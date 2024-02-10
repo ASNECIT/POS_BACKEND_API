@@ -44,7 +44,7 @@ class Handler extends ExceptionHandler
                         "error" => true, 
                         "message" => $data["exception_message"],
                         "data" => $data
-                ], 403);
+                ]);
             }
         });
     }
